@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Desktop\\repos\\BeFit\\BeFit\\BeFit.csproj": {}
+    "C:\\Users\\Uran\\Downloads\\2025-11-15_lab04\\BeFit\\BeFit\\BeFit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Desktop\\repos\\BeFit\\BeFit\\BeFit.csproj": {
+    "C:\\Users\\Uran\\Downloads\\2025-11-15_lab04\\BeFit\\BeFit\\BeFit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\repos\\BeFit\\BeFit\\BeFit.csproj",
+        "projectUniqueName": "C:\\Users\\Uran\\Downloads\\2025-11-15_lab04\\BeFit\\BeFit\\BeFit.csproj",
         "projectName": "BeFit",
-        "projectPath": "C:\\Users\\Student\\Desktop\\repos\\BeFit\\BeFit\\BeFit.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\repos\\BeFit\\BeFit\\obj\\",
+        "projectPath": "C:\\Users\\Uran\\Downloads\\2025-11-15_lab04\\BeFit\\BeFit\\BeFit.csproj",
+        "packagesPath": "C:\\Users\\Uran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Uran\\Downloads\\2025-11-15_lab04\\BeFit\\BeFit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Uran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -67,8 +67,14 @@
               "version": "[8.0.21, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [
@@ -90,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

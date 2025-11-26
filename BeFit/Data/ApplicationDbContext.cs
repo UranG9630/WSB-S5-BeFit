@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using BeFit.Models;
 
 namespace BeFit.Data
 {
@@ -9,5 +10,8 @@ namespace BeFit.Data
             : base(options)
         {
         }
+        public DbSet<BeFit.Models.Excercise> Excercise { get; set; } = default!;
+        public DbSet<BeFit.Models.ExcerciseType> ExcerciseType { get; set; } = default!;
+        public DbSet<BeFit.Models.Session> Session { get; set; } = default!;
     }
 }
