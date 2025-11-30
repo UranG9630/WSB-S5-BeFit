@@ -1,13 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using BeFit.Data;
+using BeFit.DTOs;
+using BeFit.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using BeFit.Data;
-using BeFit.Models;
+using NuGet.Protocol;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace BeFit.Controllers
 {
@@ -63,14 +65,25 @@ namespace BeFit.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,SessionId,ExcerciseTypeId,Weight,SeriesCount,RepsCount")] Excercise excercise)
+        public async Task<IActionResult> Create([Bind("Id,SessionId,ExcerciseTypeId,Weight,SeriesCount,RepsCount")] ExcercisesDTO excerciseDTO)
         {
+            Excercise excercise = new Excercise()
+            {
+                Id = excerciseDTO.Id,
+                SessionId = excerciseDTO.SessionId,
+                ExcerciseTypeId = excerciseDTO.ExcerciseTypeId,
+                Weight = excerciseDTO.Weight,
+                SeriesCount = excerciseDTO.SeriesCount,
+                RepsCount = excerciseDTO.RepsCount,
+                TraineeId = GetUserId()
+            };
             if (ModelState.IsValid)
             {
                 _context.Add(excercise);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["DebugState"] = ModelState.ToJson().ToString();
             ViewData["ExcerciseType"] = new SelectList(_context.ExcerciseType, "Id", "Name", excercise.ExcerciseTypeId);
             ViewData["SessionId"] = new SelectList(_context.Session, "Id", "Start", excercise.SessionId);
             return View(excercise);

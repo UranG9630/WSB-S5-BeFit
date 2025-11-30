@@ -1,7 +1,6 @@
 ﻿using Humanizer.Localisation;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
-// TODO - recheck on windows, written from mint
 
 namespace BeFit.Models
 {
