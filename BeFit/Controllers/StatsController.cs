@@ -18,6 +18,7 @@ using Microsoft.AspNetCore.Authorization;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using NuGet.Versioning;
 
 namespace BeFit.Controllers
 {
@@ -37,10 +38,14 @@ namespace BeFit.Controllers
         {
             return now.Subtract(new TimeSpan(28, 0, 0, 0));
         }
-        private bool IsRecentSession(Session m) 
+        private bool IsRecentSession(int _session) 
         {
-            
-            return DateTime.Compare(m.Start, GetRecentPeriod(DateTime.Now)) > 0;
+            Session? session = _context.Session.Find(_session);
+            if (session == null) 
+            {
+                return false; 
+            }
+            return DateTime.Compare(session.Start, GetRecentPeriod(DateTime.Now)) > 0;
         }
 
         public async Task<IActionResult> Index()
@@ -82,8 +87,9 @@ namespace BeFit.Controllers
             _context.Session.Where(IsRecentSession);
             */
             // based on https://learn.microsoft.com/en-us/aspnet/core/data/ef-mvc/sort-filter-page?view=aspnetcore-10.0#create-an-about-page
+            var excercises = _context.Excercise.Where(e => e.TraineeId == GetUserId()).Where(e=> e.Session.Start >= DateTime.Now.AddDays(-28));
             IQueryable<StatCountGroup> data =
-                from excercise in _context.Excercise.Where(e => e.TraineeId == GetUserId())
+                from excercise in excercises
                 group excercise by excercise.ExcerciseTypeId into excerciseGroup
                 select new StatCountGroup()
                 {

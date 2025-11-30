@@ -814,3 +814,4 @@ C:\Users\Uran\Downloads\20251129_befit\BeFit\BeFit\obj\Debug\net8.0\refint\BeFit
 C:\Users\Uran\Downloads\20251129_befit\BeFit\BeFit\obj\Debug\net8.0\BeFit.pdb
 C:\Users\Uran\Downloads\20251129_befit\BeFit\BeFit\obj\Debug\net8.0\BeFit.genruntimeconfig.cache
 C:\Users\Uran\Downloads\20251129_befit\BeFit\BeFit\obj\Debug\net8.0\ref\BeFit.dll
+C:\Users\Uran\Downloads\20251129_befit\BeFit\BeFit\obj\Debug\net8.0\BeFit.sourcelink.json
