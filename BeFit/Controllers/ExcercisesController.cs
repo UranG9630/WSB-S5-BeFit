@@ -58,7 +58,7 @@ namespace BeFit.Controllers
         public IActionResult Create()
         {
             ViewData["ExcerciseTypeId"] = new SelectList(_context.Set<ExcerciseType>(), "Id", "Name");
-            ViewData["SessionId"] = new SelectList(_context. Set<Session>(), "Id", "Start");
+            ViewData["SessionId"] = new SelectList(_context.Session.Where(e => e.TraineeId == GetUserId()), "Id", "Start");
             return View();
         }
 

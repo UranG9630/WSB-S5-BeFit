@@ -4,24 +4,25 @@ namespace BeFit.Models
 {
     public class Excercise
     {
+        [Display(Name = "Identyfikator")]
         public int Id {get; set; }
-        [Display(Name = "Session")]
+        [Display(Name = "Sesja Treningowa")]
         public int SessionId { get; set; }
-        [Display(Name = "Session")]
+        [Display(Name = "Sesja Treningowa")]
         public virtual Session? Session { get; set; }
-        [Display(Name = "Excercise Type")]
+        [Display(Name = "Typ Ćwiczenia")]
         public int ExcerciseTypeId { get; set; }
-        [Display(Name = "Excercise Type")]
+        [Display(Name = "Typ Ćwiczenia")]
         public virtual ExcerciseType? ExcerciseType { get; set; }
-        [Display(Name = "Trainee")]
+        [Display(Name = "Trenujący")]
         public string TraineeId { get; set; }
-        [Display(Name = "Trainee")]
+        [Display(Name = "Trenujący")]
         public virtual BefitUser? Trainee { get; set; }
-        [Display(Name = "Weight")]
+        [Display(Name = "Obciążenie")]
         public uint Weight { get; set; }
-        [Display(Name = "Count of Series")]
+        [Display(Name = "Liczba Serii")]
         public uint SeriesCount { get; set; }
-        [Display(Name = "Count of Reps")]
+        [Display(Name = "Liczba Powtórzeń")]
         public uint RepsCount { get; set; }
     }
 }

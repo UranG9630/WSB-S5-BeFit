@@ -52,18 +52,20 @@ namespace BeFit.Models
     public class Session
     {
         public int Id { get; set; }
-        
+
+        [Display(Name = "Początek")]
         [DataType(DataType.DateTime)]
         [DisplayFormat(DataFormatString = "{0:yyyy/MM/dd HH:mm:ss}", ApplyFormatInEditMode = true)]
         public DateTime Start { get; set; }
+        [Display(Name = "Koniec")]
         [Required]
         [DataType(DataType.DateTime)]
         [DisplayFormat(DataFormatString = "{0:yyyy/MM/dd HH:mm:ss}", ApplyFormatInEditMode = true)]
         public DateTime End { get; set; }
 
-        [Display(Name = "Trainee")]
+        [Display(Name = "Trenujący")]
         public string TraineeId { get; set; }
-        [Display(Name = "Trainee")]
+        [Display(Name = "Trenujący")]
         public virtual BefitUser? Trainee { get; set; }
     }
 }

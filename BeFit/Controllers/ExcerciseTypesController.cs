@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using BeFit.Data;
 using BeFit.Models;
@@ -42,7 +43,7 @@ namespace BeFit.Controllers
 
             return View(excerciseType);
         }
-
+        [Authorize(Roles = "Administrator")]
         // GET: ExcerciseTypes/Create
         public IActionResult Create()
         {
@@ -52,6 +53,7 @@ namespace BeFit.Controllers
         // POST: ExcerciseTypes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Administrator")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name")] ExcerciseType excerciseType)
@@ -66,6 +68,7 @@ namespace BeFit.Controllers
         }
 
         // GET: ExcerciseTypes/Edit/5
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -84,6 +87,7 @@ namespace BeFit.Controllers
         // POST: ExcerciseTypes/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Administrator")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] ExcerciseType excerciseType)
@@ -117,6 +121,7 @@ namespace BeFit.Controllers
         }
 
         // GET: ExcerciseTypes/Delete/5
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -135,6 +140,7 @@ namespace BeFit.Controllers
         }
 
         // POST: ExcerciseTypes/Delete/5
+        [Authorize(Roles = "Administrator")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

@@ -1,40 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{96FFAFB1-E497-48B3-8BF8-1514ECED8950}|BeFit\\BeFit.csproj|c:\\users\\uran\\downloads\\20251129_befit\\befit\\befit\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96FFAFB1-E497-48B3-8BF8-1514ECED8950}|BeFit\\BeFit.csproj|solutionrelative:befit\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96FFAFB1-E497-48B3-8BF8-1514ECED8950}|BeFit\\BeFit.csproj|c:\\users\\uran\\downloads\\20251129_befit\\befit\\befit\\controllers\\excercisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96FFAFB1-E497-48B3-8BF8-1514ECED8950}|BeFit\\BeFit.csproj|solutionrelative:befit\\controllers\\excercisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96FFAFB1-E497-48B3-8BF8-1514ECED8950}|BeFit\\BeFit.csproj|c:\\users\\uran\\downloads\\20251129_befit\\befit\\befit\\controllers\\sessionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96FFAFB1-E497-48B3-8BF8-1514ECED8950}|BeFit\\BeFit.csproj|solutionrelative:befit\\controllers\\sessionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96FFAFB1-E497-48B3-8BF8-1514ECED8950}|BeFit\\BeFit.csproj|c:\\users\\uran\\downloads\\20251129_befit\\befit\\befit\\models\\excercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96FFAFB1-E497-48B3-8BF8-1514ECED8950}|BeFit\\BeFit.csproj|solutionrelative:befit\\models\\excercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96FFAFB1-E497-48B3-8BF8-1514ECED8950}|BeFit\\BeFit.csproj|c:\\users\\uran\\downloads\\20251129_befit\\befit\\befit\\dtos\\sessionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96FFAFB1-E497-48B3-8BF8-1514ECED8950}|BeFit\\BeFit.csproj|solutionrelative:befit\\dtos\\sessionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96FFAFB1-E497-48B3-8BF8-1514ECED8950}|BeFit\\BeFit.csproj|c:\\users\\uran\\downloads\\20251129_befit\\befit\\befit\\dtos\\excercisesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96FFAFB1-E497-48B3-8BF8-1514ECED8950}|BeFit\\BeFit.csproj|solutionrelative:befit\\dtos\\excercisesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96FFAFB1-E497-48B3-8BF8-1514ECED8950}|BeFit\\BeFit.csproj|c:\\users\\uran\\downloads\\20251129_befit\\befit\\befit\\views\\excercises\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96FFAFB1-E497-48B3-8BF8-1514ECED8950}|BeFit\\BeFit.csproj|solutionrelative:befit\\views\\excercises\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96FFAFB1-E497-48B3-8BF8-1514ECED8950}|BeFit\\BeFit.csproj|c:\\users\\uran\\downloads\\20251129_befit\\befit\\befit\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96FFAFB1-E497-48B3-8BF8-1514ECED8950}|BeFit\\BeFit.csproj|solutionrelative:befit\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -42,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 493,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,110 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StatsController.cs",
-              "DocumentMoniker": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\BeFit\\Controllers\\StatsController.cs",
-              "RelativeDocumentMoniker": "BeFit\\Controllers\\StatsController.cs",
-              "ToolTip": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\BeFit\\Controllers\\StatsController.cs",
-              "RelativeToolTip": "BeFit\\Controllers\\StatsController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAcwFYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T14:55:50.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExcercisesController.cs",
-              "DocumentMoniker": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\BeFit\\Controllers\\ExcercisesController.cs",
-              "RelativeDocumentMoniker": "BeFit\\Controllers\\ExcercisesController.cs",
-              "ToolTip": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\BeFit\\Controllers\\ExcercisesController.cs",
-              "RelativeToolTip": "BeFit\\Controllers\\ExcercisesController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCAAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T13:43:10.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SessionsController.cs",
-              "DocumentMoniker": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\BeFit\\Controllers\\SessionsController.cs",
-              "RelativeDocumentMoniker": "BeFit\\Controllers\\SessionsController.cs",
-              "ToolTip": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\BeFit\\Controllers\\SessionsController.cs",
-              "RelativeToolTip": "BeFit\\Controllers\\SessionsController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwBAAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T13:44:13.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SessionsDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\BeFit\\DTOs\\SessionsDTO.cs",
-              "RelativeDocumentMoniker": "BeFit\\DTOs\\SessionsDTO.cs",
-              "ToolTip": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\BeFit\\DTOs\\SessionsDTO.cs",
-              "RelativeToolTip": "BeFit\\DTOs\\SessionsDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T13:44:14.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExcercisesDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\BeFit\\DTOs\\ExcercisesDTO.cs",
-              "RelativeDocumentMoniker": "BeFit\\DTOs\\ExcercisesDTO.cs",
-              "ToolTip": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\BeFit\\DTOs\\ExcercisesDTO.cs",
-              "RelativeToolTip": "BeFit\\DTOs\\ExcercisesDTO.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T13:44:48.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\BeFit\\Views\\Excercises\\Create.cshtml",
-              "RelativeDocumentMoniker": "BeFit\\Views\\Excercises\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\BeFit\\Views\\Excercises\\Create.cshtml",
-              "RelativeToolTip": "BeFit\\Views\\Excercises\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-30T13:43:04.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Excercise.cs",
-              "DocumentMoniker": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\BeFit\\Models\\Excercise.cs",
-              "RelativeDocumentMoniker": "BeFit\\Models\\Excercise.cs",
-              "ToolTip": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\BeFit\\Models\\Excercise.cs",
-              "RelativeToolTip": "BeFit\\Models\\Excercise.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T13:44:51.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Session.cs",
-              "DocumentMoniker": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\BeFit\\Models\\Session.cs",
-              "RelativeDocumentMoniker": "BeFit\\Models\\Session.cs",
-              "ToolTip": "C:\\Users\\Uran\\Downloads\\20251129_befit\\BeFit\\BeFit\\Models\\Session.cs",
-              "RelativeToolTip": "BeFit\\Models\\Session.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T13:45:49.717Z",
-              "EditorCaption": ""
             }
           ]
         }

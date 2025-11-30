@@ -13,8 +13,11 @@ namespace BeFit.Models.BefitViewModels
         public double AvgWeight { get; set; }
         [Display(Name = "Maksymalne obciążenie")]
         public uint MaxWeight { get; set; }
+        [Display(Name = "Nazwa Ćwiczenia")]
         public string ExcerciseName { get { return ExcerciseType.Name; } }
+        [Display(Name = "Ćwiczenie")]
         public int ExcerciseTypeId { get; set; }
+        [Display(Name = "Ćwiczenie")]
         public virtual ExcerciseType? ExcerciseType { get; set; }
     }
 }
