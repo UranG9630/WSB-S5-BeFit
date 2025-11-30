@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using BeFit.Data;
 using BeFit.Models;
@@ -13,6 +14,7 @@ using NuGet.Protocol;
 
 namespace BeFit.Controllers
 {
+    [Authorize]
     public class SessionsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -29,7 +31,7 @@ namespace BeFit.Controllers
         // GET: Sessions
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Session.ToListAsync());
+            return View(await _context.Session.Where(s => s.TraineeId == GetUserId()).ToListAsync());
         }
 
         // GET: Sessions/Details/5
@@ -40,7 +42,7 @@ namespace BeFit.Controllers
                 return NotFound();
             }
 
-            var session = await _context.Session
+            var session = await _context.Session.Where(s => s.TraineeId == GetUserId())
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (session == null)
             {
@@ -93,9 +95,9 @@ namespace BeFit.Controllers
             {
                 return NotFound();
             }
-
             var session = await _context.Session.FindAsync(id);
-            if (session == null)
+
+            if (session == null || session.TraineeId != GetUserId())
             {
                 return NotFound();
             }
@@ -109,7 +111,7 @@ namespace BeFit.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id")] Session session)
         {
-            if (id != session.Id)
+            if (id != session.Id || session.TraineeId != GetUserId())
             {
                 return NotFound();
             }
@@ -145,7 +147,7 @@ namespace BeFit.Controllers
                 return NotFound();
             }
 
-            var session = await _context.Session
+            var session = await _context.Session.Where(s => s.TraineeId == GetUserId())
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (session == null)
             {
@@ -161,6 +163,12 @@ namespace BeFit.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var session = await _context.Session.FindAsync(id);
+            if (session == null || session.TraineeId != GetUserId())
+            {
+                return NotFound();
+            }
+
+            
             if (session != null)
             {
                 _context.Session.Remove(session);

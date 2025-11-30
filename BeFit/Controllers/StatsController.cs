@@ -14,13 +14,14 @@ using BeFit.Models;
 using BeFit.Models.BefitViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace BeFit.Controllers
 {
-    
+    [Authorize]
     public class StatsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -82,7 +83,7 @@ namespace BeFit.Controllers
             */
             // based on https://learn.microsoft.com/en-us/aspnet/core/data/ef-mvc/sort-filter-page?view=aspnetcore-10.0#create-an-about-page
             IQueryable<StatCountGroup> data =
-                from excercise in _context.Excercise
+                from excercise in _context.Excercise.Where(e => e.TraineeId == GetUserId())
                 group excercise by excercise.ExcerciseTypeId into excerciseGroup
                 select new StatCountGroup()
                 {
