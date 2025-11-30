@@ -1,6 +1,13 @@
 using BeFit.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
+
+// Set culture to invariant.
+var cultureInfo = CultureInfo.InvariantCulture;
+CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
+CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
+//System.Globalization.CultureInfo.CurrentCulture = new System.Globalization.CultureInfo("pl-PL");
 
 var builder = WebApplication.CreateBuilder(args);
 

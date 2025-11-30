@@ -10,8 +10,18 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
+        <div>Validity: @ViewData["IsValid"]</div>
+        <div>UserId: @ViewData["UserId"]</div>
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Start" class="control-label"></label>
+                <input asp-for="Start" type="datetime-local" class="form-control" asp-items="ViewBag.Start"></input>
+            </div>
+            <div class="form-group">
+                <label asp-for="End" class="control-label"></label>
+                <input asp-for="End" type="datetime-local" class="form-control" asp-items="ViewBag.End"></input>
+            </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>

@@ -19,109 +19,109 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v8.0
 build_property.RootNamespace = BeFit
 build_property.RootNamespace = BeFit
-build_property.ProjectDir = C:\Users\Uran\Downloads\2025-11-15_lab04\BeFit\BeFit\
+build_property.ProjectDir = C:\Users\Uran\Downloads\20251129_befit\BeFit\BeFit\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Uran\Downloads\2025-11-15_lab04\BeFit\BeFit
+build_property.MSBuildProjectDirectory = C:\Users\Uran\Downloads\20251129_befit\BeFit\BeFit
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/Excercises/Create.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/Excercises/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjZXJjaXNlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/Excercises/Delete.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/Excercises/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjZXJjaXNlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/Excercises/Details.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/Excercises/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjZXJjaXNlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/Excercises/Edit.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/Excercises/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjZXJjaXNlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/Excercises/Index.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/Excercises/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjZXJjaXNlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/ExcerciseTypes/Create.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/ExcerciseTypes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjZXJjaXNlVHlwZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/ExcerciseTypes/Delete.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/ExcerciseTypes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjZXJjaXNlVHlwZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/ExcerciseTypes/Details.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/ExcerciseTypes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjZXJjaXNlVHlwZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/ExcerciseTypes/Edit.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/ExcerciseTypes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjZXJjaXNlVHlwZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/ExcerciseTypes/Index.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/ExcerciseTypes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjZXJjaXNlVHlwZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/Home/Index.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/Home/Privacy.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/Sessions/Create.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/Sessions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvbnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/Sessions/Delete.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/Sessions/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvbnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/Sessions/Details.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/Sessions/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvbnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/Sessions/Edit.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/Sessions/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvbnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/Sessions/Index.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/Sessions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/Shared/Error.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/_ViewImports.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/_ViewStart.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Uran/Downloads/2025-11-15_lab04/BeFit/BeFit/Views/Shared/_Layout.cshtml]
+[C:/Users/Uran/Downloads/20251129_befit/BeFit/BeFit/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-e9mejff08s

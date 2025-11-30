@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using BeFit.Data;
 using BeFit.Models;
 using System.Security.Claims;
+using BeFit.DTOs;
+using NuGet.Protocol;
 
 namespace BeFit.Controllers
 {
@@ -51,6 +53,9 @@ namespace BeFit.Controllers
         // GET: Sessions/Create
         public IActionResult Create()
         {
+            //ViewData["IsValid"] = ModelState.IsValid.ToString();
+            ViewData["IsValid"] = ModelState.ToJson().ToString();
+            ViewData["UserId"] = GetUserId();
             return View();
         }
 
@@ -59,14 +64,25 @@ namespace BeFit.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id")] Session session)
+        public async Task<IActionResult> Create([Bind("Id,Start,End")] SessionDTO sessionDTO)
         {
+            Session session = new Session()
+            {
+                Id = sessionDTO.Id,
+                Start = sessionDTO.Start,
+                End = sessionDTO.End,
+                TraineeId = GetUserId()
+            };
+
             if (ModelState.IsValid)
             {
                 _context.Add(session);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            //ViewData["IsValid"] = ModelState.IsValid.ToString();
+            ViewData["UserId"] = GetUserId();
+            ViewData["IsValid"] = ModelState.ToJson().ToString();
             return View(session);
         }
 
